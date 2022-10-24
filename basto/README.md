@@ -5,7 +5,7 @@
 
 ##-----------------------------------------------------------------------------
 
-## Aplicacion realizada de acuerdo a los suigiente parámetros, entre otros.
+## Aplicacion realizada de acuerdo a los siguientes parámetros, entre otros.
 
 ##-----------------------------------------------------------------------------
 
