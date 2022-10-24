@@ -1,0 +1,232 @@
+/*
+It's an application with few components, 
+so I decided to create a single global style sheet. 
+It's well differentiated following the BEM method
+*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-main{
+    display: flex;
+    flex-direction: column;
+    border-top: #090616 solid;
+}
+.header-top{
+    height: 5vh;
+    display: flex;
+    justify-content:space-between
+}
+.header-brand{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+}
+.brand{
+    color: #090616;
+    padding: 3px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.header-menu {
+    display:flex;
+}
+.messages{
+    align-items: center;
+    display:flex;
+    padding: 10px; 
+}
+.icons{
+    color:#090616;
+    font-size: 1.5rem;
+}
+.msj-qty{
+    background-color:rgb(5, 161, 189);
+    border-radius: 2px;
+    color: aliceblue;
+    font-weight: 300;
+    padding: 3px;
+}
+.menu-content{
+    background-color: rgb(212, 210, 210);
+    width: 100%;
+    padding: 0px 30px;
+}
+.menu-title{
+    padding: 5px;
+    margin:3px;
+    font-weight: 700;
+    color: #4fa839;
+}
+.menu-add{
+    padding: 3px;
+    margin: 5px;
+    font-weight: 700;
+    font-size: 2rem;
+    color:#090616;
+}
+.menu-search{
+    padding: 3px;
+    margin: 0px 5px;
+    font-weight: 700;
+    font-size: 1rem;
+    color:#090616;
+}
+.button{
+    background-color: #4fa839;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    margin: 15px 5px;
+}
+.form-container{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000066;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-detail{
+    display: flex;
+    flex-direction: column;
+    top:100px;
+    background-color: #ccc;
+    width: 50%;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.close-button{
+    position: relative;
+    align-self: flex-end;
+    padding: 5px;
+    border:none;
+    width: 20px;
+    border-radius: 3px;
+    font-weight: 400;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formItem{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.label{
+    width: 50%;    
+}
+.input{
+    width: 50%;
+    border: none;
+    padding: 5px
+}
+.input1{
+    width: 52%;
+    border: none;
+    padding: 5px
+}
+.input-search{
+    width: 40%;
+    border: none;
+    padding: 5px;
+    height: 1.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.display-main{
+    background-color: rgb(212, 210, 210);
+    padding: 10px 30px;
+}
+.display-elem{
+display: flex;
+flex-direction: column;
+}
+.display-elem-tittle{
+display: flex;
+padding: 5px;
+border-top: #090616c0 solid 1px;
+font-weight: bold;
+}
+.line-det {
+    display: flex;
+    padding: 5px;
+    border-bottom: #090616c0 solid 1px;
+}
+.it-id{
+    width: 15%;
+}
+.it-type{
+    width: 15%;
+}
+.it-weight{
+    width: 5%;
+}
+.it-origin{
+    width: 30%;
+}
+.it-device{
+    width: 10%;
+}
+.it-code{
+    width: 10%;
+}
+.pages-container{
+    display: flex;
+    justify-content: center;
+}
+.pages{
+    display: flex;
+    justify-content: center;
+    border: #09061680;
+    border-radius: 3px;
+    padding: 5px;
+}
+.number{
+    padding: 5px 7px;
+    color: #090616;
+    font-weight: bold;
+    background-color: rgba(106, 107, 109, 0.705);
+}
+.number-pn{
+    width: 20px;
+    padding: 5px 7px;
+    color: #090616;
+    font-weight: bold;
+    background-color: rgba(106, 107, 109, 0.705);
+}
+.number-selected{
+    padding: 5px 7px;
+    background-color: #090616;
+    font-weight: bold;
+    color: rgba(106, 107, 109, 0.705);
+}
+.number:hover{
+    padding: 5px 7px;
+    background-color: #090616;
+    font-weight: bold;
+    color: rgba(183, 184, 187, 0.705);
+}
+.number-pn:hover{
+    padding: 5px 7px;
+    background-color: #090616;
+    font-weight: bold;
+    color: rgba(183, 184, 187, 0.705);
+}
+.edit{
+    color: #3ca522;
+    font-size: 1.1rem;
+}
+.del{
+    color: rgb(134, 0, 0);
+    font-size: 1.3rem;
+}
